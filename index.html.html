@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aghniya Adz-Dzikri | Event & Wedding Content Creator</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font (Plus Jakarta Sans) -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        gold: {
+                            400: '#facc15',
+                            500: '#eab308',
+                            accent: '#d4af37',
+                            hover: '#b89628'
+                        },
+                        darkbg: '#0a0d14',
+                        darkcard: '#121824',
+                        darkborder: '#1f293d'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .aspect-vertical {
+            aspect-ratio: 9 / 16;
+        }
+    </style>
+</head>
+<body class="bg-darkbg text-gray-200 font-sans antialiased selection:bg-gold-accent selection:text-black">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-darkbg/80 backdrop-blur-md border-b border-darkborder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold tracking-wider text-white">AGHNIYA<span class="text-gold-accent">.</span></span>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-gold-accent transition">Tentang</a>
+                <a href="#portfolio" class="hover:text-gold-accent transition">Portofolio</a>
+                <a href="#experience" class="hover:text-gold-accent transition">Pengalaman</a>
+                <a href="#achievements" class="hover:text-gold-accent transition">Prestasi</a>
+                <a href="#skills" class="hover:text-gold-accent transition">Gear & Skills</a>
+            </div>
+            <a href="https://wa.me/6285800644166" target="_blank" class="bg-gold-accent hover:bg-gold-hover text-black font-semibold text-xs sm:text-sm px-4 py-2 rounded-full transition flex items-center gap-2">
+                <i class="fab fa-whatsapp text-base"></i> Hubungi Saya
+            </a>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <section class="pt-28 pb-16 md:pt-36 md:pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+            <!-- Text Content Left -->
+            <div class="md:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 bg-gold-accent/10 border border-gold-accent/30 text-gold-accent text-xs sm:text-sm px-4 py-1.5 rounded-full font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    ✨ Open for Freelance Project & Hiring • Solo Raya & Around
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                    AGHNIYA ADZ-DZIKRI
+                </h1>
+                
+                <p class="text-lg sm:text-xl text-gold-accent font-semibold">
+                    Event & Wedding Content Creator (WCC) | Mobile Videographer
+                </p>
+                
+                <p class="text-gray-400 text-base leading-relaxed">
+                    Mengemas momen berharga, festival skala besar, pengelolaan media sosial hingga kolaborasi brand menjadi konten video  yang estetik, emosional, dan tren.
+                </p>
+
+                <!-- Spec Badges -->
+                <div class="flex flex-wrap gap-2 text-xs sm:text-sm text-gray-300 pt-2">
+                    <span class="bg-darkcard border border-darkborder px-3 py-1.5 rounded-lg">📍 Sukoharjo (Solo Raya)</span>
+                    <span class="bg-darkcard border border-darkborder px-3 py-1.5 rounded-lg">📱 iPhone 14 (4K 60fps)</span>
+                    <span class="bg-darkcard border border-darkborder px-3 py-1.5 rounded-lg">🎬 CapCut Pro</span>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#portfolio" class="bg-gold-accent hover:bg-gold-hover text-black font-bold px-6 py-3 rounded-xl transition flex items-center gap-2">
+                        Lihat Galeri Video <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="https://wa.me/6285800644166" target="_blank" class="border border-gold-accent/50 text-gold-accent hover:bg-gold-accent/10 font-bold px-6 py-3 rounded-xl transition flex items-center gap-2">
+                        Hubungi via WhatsApp <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Image Right -->
+            <div class="md:col-span-5 flex justify-center">
+                <div class="relative group w-64 sm:w-80">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-gold-accent to-yellow-600 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+                    <div class="relative bg-darkcard border border-darkborder rounded-3xl p-3 overflow-hidden shadow-2xl">
+                        <!-- Menggunakan foto internal -->
+                        <img src="assets/aghni.PNG" alt="Aghniya Adz-Dzikri" class="rounded-2xl w-full aspect-[3/4] object-cover grayscale hover:grayscale-0 transition duration-500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-darkborder max-w-7xl mx-auto my-4">
+
+    <!-- SECTION 2: TENTANG SAYA -->
+    <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="bg-darkcard border border-darkborder rounded-3xl p-8 sm:p-12 relative overflow-hidden">
+            <div class="max-w-3xl space-y-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white flex items-center gap-3">
+                    <span>💡</span> Kreativitas Berbasis Pengalaman
+                </h2>
+                <p class="text-gray-300 leading-relaxed text-base sm:text-lg">
+                    Saya adalah seorang <strong>Mobile Videographer & Content Creator</strong> yang berdomisili di Sukoharjo, Solo Raya. Mengombinasikan ketajaman kamera iPhone 14 dengan eksekusi editing presisi di CapCut Pro, saya terbiasa menangkap detail mikro, ekspresi natural, hingga kemeriahan acara live.
+                </p>
+                <p class="text-gray-400 leading-relaxed text-base">
+                    Berpengalaman menangani event wedding, event skala nasional (Bytesfest UNS), kebudayaan (Festival Jenang), hingga berbagai brand commercial, saya siap menghadirkan hasil video dengan <i>visual aesthetic</i>, <i>speed ramping</i> yang halus, dan penceritaan yang kuat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: GALERI PORTOFOLIO VIDEO -->
+    <section id="portfolio" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+            <h2 class="text-3xl font-bold text-white mb-3">Galeri Portofolio Video</h2>
+            <p class="text-gray-400">Klik kartu untuk memutar video. </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap justify-center gap-2 mb-10" id="filter-buttons">
+            <button onclick="filterPortfolio('all')" class="filter-btn active bg-gold-accent text-black font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">Semua Proyek</button>
+            <button onclick="filterPortfolio('wedding')" class="filter-btn bg-darkcard border border-darkborder text-gray-300 hover:text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">💒 Wedding</button>
+            <button onclick="filterPortfolio('event')" class="filter-btn bg-darkcard border border-darkborder text-gray-300 hover:text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">🎵 Music & Festival</button>
+            <button onclick="filterPortfolio('commercial')" class="filter-btn bg-darkcard border border-darkborder text-gray-300 hover:text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">🛍️ Commercial</button>
+            <button onclick="filterPortfolio('corporate')" class="filter-btn bg-darkcard border border-darkborder text-gray-300 hover:text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">🎤 Corporate & Semnas</button>
+            <button onclick="filterPortfolio('social')" class="filter-btn bg-darkcard border border-darkborder text-gray-300 hover:text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition">❤️ Social Impact</button>
+        </div>
+
+        <!-- Portfolio Grid (9:16 Vertical Video Cards) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Item 1: Wedding 1 -->
+            <div class="portfolio-item wedding bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/wedding1.mp4', 'Wedding Content Creator - Project 1')">
+                    <img src="assets/coverwedding1.jpg" alt="Wedding Project 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Wedding</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Wedding Content Creator - Project #1</h3>
+                    <p class="text-xs text-gray-400 mb-3">Cinematic, liputan resepsi, detail makeup, & narasi emosional.</p>
+                </div>
+            </div>
+
+            <!-- Item 2: Wedding 2 -->
+            <div class="portfolio-item wedding bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/wedding2.mp4', 'Wedding Content Creator - Project 2')">
+                    <img src="assets/coverwedding2.jpg" alt="Wedding Project 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Wedding</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Wedding Content Creator - Project #2</h3>
+                    <p class="text-xs text-gray-400 mb-3">Editing promosi WO 2 juta dan transisi estetis.</p>
+                </div>
+            </div>
+
+            <!-- Item 3: Wedding 3 -->
+            <div class="portfolio-item wedding bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/wedding3.mp4', 'Wedding Content Creator - Project 3')">
+                    <img src="assets/coverwedding3.jpg" alt="Wedding Project 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Wedding</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Wedding Content Creator - Project #3</h3>
+                    <p class="text-xs text-gray-400 mb-3">Editing promosi WO 2 juta dan transisi estetis.</p>
+                </div>
+            </div>
+
+            <!-- Item 2: Wedding 4 -->
+            <div class="portfolio-item wedding bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/wedding4.mp4', 'Wedding Content Creator - Project 2')">
+                    <img src="assets/coverwedding4.jpg" alt="Wedding Project 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Wedding</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Wedding Content Creator - Project #4</h3>
+                    <p class="text-xs text-gray-400 mb-3">Hasil take resepsi kak Sri dan kak Royan Karanganyar</p>
+                </div>
+            </div>
+
+            <!-- Item 3: Event (Bytesfest UNS) -->
+            <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/bytesfest1.mp4', 'Bytesfest UNS (2026)')">
+                    <img src="assets/cbytesfest1.jpg" alt="Bytesfest UNS" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Festival</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Bytesfest UNS (2026)</h3>
+                    <p class="text-xs text-gray-400 mb-3">Fast-paced, crowd reaction, pencahayaan panggung, & beat-sync presisi.</p>
+                </div>
+            </div>
+
+                        <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/bytesfest2.mp4', 'Bytesfest UNS (2026)')">
+                    <img src="assets/cbyetesfest2.jpg" alt="Bytesfest UNS" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Festival</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Bytesfest UNS (2026)</h3>
+                    <p class="text-xs text-gray-400 mb-3">Promosi PDH dan Lanyard event Bytesfest UNS 2026. </p>
+                </div>
+            </div>
+
+            <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/bytesfest3.mp4', 'Bytesfest UNS (2026)')">
+                    <img src="assets/cbytesfest3.jpg" alt="Bytesfest UNS" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Festival</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Bytesfest UNS (2026)</h3>
+                    <p class="text-xs text-gray-400 mb-3">Cooming Soon Bytesfest UNS 2026.</p>
+                </div>
+            </div>
+
+            <!-- Item 4: Event (Festival Jenang & Socha) -->
+            <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/fjs1.mp4', 'Festival Jenang & Socha (2025)')">
+                    <img src="assets/cfjs2.jpg" alt="Festival Jenang & Socha" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Cultural Event</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Festival Jenang 2026</h3>
+                    <p class="text-xs text-gray-400 mb-3">Dokumentasi kebudayaan, momen festival lokal, dan nuansa dinamis.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/fjs2.mp4', 'Festival Jenang & Socha (2025)')">
+                    <img src="assets/cfjs1.jpg" alt="Festival Jenang & Socha" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Cultural Event</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Festival Jenang 2026</h3>
+                    <p class="text-xs text-gray-400 mb-3">Dokumentasi kebudayaan, momen festival lokal, dan nuansa dinamis.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item event bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/socha.mp4', 'Festival Jenang & Socha (2025)')">
+                    <img src="assets/csocha1.jpg" alt="Festival Jenang & Socha" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Cultural Event</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">School Championship 2025</h3>
+                    <p class="text-xs text-gray-400 mb-3">Dokumentasi dan promosi event futsal SMA/K Se-Solo Raya</p>
+                </div>
+            </div>
+
+            <!-- Item 5: Commercial -->
+            <div class="portfolio-item commercial bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/rasamadu.mp4', 'Brand Commercial Video')">
+                    <img src="assets/crasamadu.jpg" alt="Commercial Brand" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Commercial</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Brand Showcase Commercial</h3>
+                    <p class="text-xs text-gray-400 mb-3">Pond's, Aromanco Parfum, Istana Buah Sidan, Rasamadu Heritage, Three Coffee Solo, Café Hidden, CV SYK Indonesia.</p>
+                </div>
+            </div>
+
+            <!-- Item 6: Corporate -->
+            <div class="portfolio-item corporate bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/salim.mp4', 'Corporate & Major Events')">
+                    <img src="assets/salim.jpg" alt="Corporate & Major Events" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Corporate</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Corporate & Major Events</h3>
+                    <p class="text-xs text-gray-400 mb-3">Halal Bihalal Akbar Pak Erwan, Tabligh Akbar Ustd. Salim A. Fillah, & Semnas.</p>
+                </div>
+            </div>
+
+            <!-- Item 7: Social Impact -->
+            <div class="portfolio-item social bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/panti1.mp4', 'Social Impact Content')">
+                    <img src="assets/cpanti1.jpg" alt="Social Impact Content" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Social Impact</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Social on the Road di Panti</h3>
+                    <p class="text-xs text-gray-400 mb-3">Human interest storytelling, kehangatan sosial, dan pesan empati.</p>
+                </div>
+            </div>
+
+                        <!-- Item 7: Social Impact -->
+            <div class="portfolio-item social bg-darkcard border border-darkborder rounded-2xl overflow-hidden hover:border-gold-accent/50 transition group">
+                <div class="relative aspect-vertical bg-black cursor-pointer overflow-hidden" onclick="playVideoModal('videos/panti2.mp4', 'Social Impact Content')">
+                    <img src="assets/cpanti2.jpg" alt="Social Impact Content" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition">
+                        <div class="w-14 h-14 bg-gold-accent/90 text-black rounded-full flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-gold-accent text-xs px-3 py-1 rounded-full border border-gold-accent/30">Social Impact</span>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-white text-lg mb-1">Social on the Road di Panti</h3>
+                    <p class="text-xs text-gray-400 mb-3">Human interest storytelling, kehangatan sosial, dan pesan empati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: REKAM JEJAK KERJA & KLIEN -->
+    <section id="experience" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">💼 Pengalaman Kerja & Kolaborasi</h2>
+        
+        <!-- Brand Grid -->
+        <div class="bg-darkcard border border-darkborder rounded-3xl p-6 sm:p-8 mb-12">
+            <h3 class="text-center text-xs font-semibold uppercase tracking-widest text-gold-accent mb-6">Brand & Klien Terpercaya</h3>
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm font-semibold text-gray-300">
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Priyayi WO</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Pond's</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Aromanco Parfum</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Istana Buah Sidan</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Rasamadu Heritage Solo</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Three Coffee Solo</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Café Hidden Backyard</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">CV SYK Indonesia</span>
+                <span class="bg-darkbg px-4 py-2 rounded-xl border border-darkborder">Mini Garment Uge</span>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="max-w-3xl mx-auto space-y-6">
+            <div class="relative pl-6 border-l-2 border-gold-accent/40 space-y-8">
+                
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-4 h-4 bg-gold-accent rounded-full border-4 border-darkbg"></span>
+                    <span class="text-xs font-bold text-gold-accent">2025 – 2026</span>
+                    <h4 class="text-lg font-bold text-white">Content Creator</h4>
+                    <p class="text-gray-400 text-sm">Bekamu Solo & Café Hidden</p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-4 h-4 bg-gold-accent rounded-full border-4 border-darkbg"></span>
+                    <span class="text-xs font-bold text-gold-accent">2025</span>
+                    <h4 class="text-lg font-bold text-white">Content Marketing</h4>
+                    <p class="text-gray-400 text-sm">CV SYK Indonesia</p>
+                </div>
+
+
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-4 h-4 bg-gold-accent rounded-full border-4 border-darkbg"></span>
+                    <span class="text-xs font-bold text-gold-accent">2024 – 2026</span>
+                    <h4 class="text-lg font-bold text-white">Freelance WCC & Event Videographer</h4>
+                    <p class="text-gray-400 text-sm">Independent Projects</p>
+                </div>
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-4 h-4 bg-gold-accent rounded-full border-4 border-darkbg"></span>
+                    <span class="text-xs font-bold text-gold-accent">2024</span>
+                    <h4 class="text-lg font-bold text-white">Host Live & Content</h4>
+                    <p class="text-gray-400 text-sm">Mini Garment Uge</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: PRESTASI & ORGANISASI -->
+    <section id="achievements" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-10 text-center">🏆 Penghargaan & Pengalaman Organisasi</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Achievements -->
+            <div class="bg-darkcard border border-darkborder rounded-3xl p-6 sm:p-8">
+                <h3 class="text-xl font-bold text-gold-accent mb-6 flex items-center gap-2">
+                    <i class="fas fa-trophy"></i> Prestasi & Juara
+                </h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-xl">🥇</span>
+                        <div>
+                            <p class="font-bold text-white">Juara 1 Lomba Typography</p>
+                            <p class="text-xs text-gray-400">Smart Cicen Jakarta</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-xl">🏅</span>
+                        <div>
+                            <p class="font-bold text-white">Juara Harapan 1 Lomba IT (2024)</p>
+                            <p class="text-xs text-gray-400">NSA Kota Surakarta</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-xl">🥈</span>
+                        <div>
+                            <p class="font-bold text-white">Juara 2 Lomba Web Design (2024)</p>
+                            <p class="text-xs text-gray-400">PITCOMFEST UMS</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-xl">🥈</span>
+                        <div>
+                            <p class="font-bold text-white">Juara 2 Lomba Video (2025)</p>
+                            <p class="text-xs text-gray-400">Gema Muslimah</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-xl">🥉</span>
+                        <div>
+                            <p class="font-bold text-white">Juara 3 Nomination Bisnis dan Budaya (2026)</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Organizations -->
+            <div class="bg-darkcard border border-darkborder rounded-3xl p-6 sm:p-8">
+                <h3 class="text-xl font-bold text-gold-accent mb-6 flex items-center gap-2">
+                    <i class="fas fa-users"></i> Pengalaman Organisasi
+                </h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-gold-accent font-bold mt-1">•</span>
+                        <div>
+                            <p class="font-bold text-white">Divisi Media Informasi</p>
+                            <p class="text-xs text-gray-400">Himpunan Mahasiswa FKIP UNS (2024 – Sekarang)</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-gold-accent font-bold mt-1">•</span>
+                        <div>
+                            <p class="font-bold text-white">Penanggung Jawab Media</p>
+                            <p class="text-xs text-gray-400">IMMI Cabang Surakarta (2024 – 2025)</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-gold-accent font-bold mt-1">•</span>
+                        <div>
+                            <p class="font-bold text-white">Sekretaris Divisi Kominfo</p>
+                            <p class="text-xs text-gray-400">OSIS SMK IT Smart Informatika (2023 – 2024)</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm sm:text-base">
+                        <span class="text-gold-accent font-bold mt-1">•</span>
+                        <div>
+                            <p class="font-bold text-white">Wakil Ketua</p>
+                            <p class="text-xs text-gray-400">Smart Bengkel Komputer SMK IT Smart Informatika (2023 – 2024)</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: KEAHLIAN TEKNIS -->
+    <section id="skills" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-10 text-center">🛠️ Peralatan & Keahlian</h2>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-darkcard border border-darkborder p-6 rounded-2xl">
+                <div class="w-12 h-12 bg-gold-accent/10 text-gold-accent rounded-xl flex items-center justify-center text-xl mb-4">📱</div>
+                <h3 class="text-lg font-bold text-white mb-2">Hardware</h3>
+                <p class="text-sm text-gray-300"><strong>iPhone 14</strong></p>
+                <p class="text-xs text-gray-400 mt-2">Handheld stabilization, perekaman 4K 60fps, serta komposisi vertikal (9:16) yang presisi.</p>
+            </div>
+
+            <div class="bg-darkcard border border-darkborder p-6 rounded-2xl">
+                <div class="w-12 h-12 bg-gold-accent/10 text-gold-accent rounded-xl flex items-center justify-center text-xl mb-4">🎬</div>
+                <h3 class="text-lg font-bold text-white mb-2">Software</h3>
+                <p class="text-sm text-gray-300"><strong>CapCut Pro</strong></p>
+                <p class="text-xs text-gray-400 mt-2">Speed ramp halus, audio beat sync, color grading estetik, dan pembuatan subtitle/caption yang bersih.</p>
+            </div>
+
+            <div class="bg-darkcard border border-darkborder p-6 rounded-2xl">
+                <div class="w-12 h-12 bg-gold-accent/10 text-gold-accent rounded-xl flex items-center justify-center text-xl mb-4">💡</div>
+                <h3 class="text-lg font-bold text-white mb-2">Skills Tambahan</h3>
+                <div class="flex flex-wrap gap-2 mt-3">
+                    <span class="bg-darkbg text-xs px-2.5 py-1 rounded border border-darkborder">Web Design</span>
+                    <span class="bg-darkbg text-xs px-2.5 py-1 rounded border border-darkborder">Graphic Design</span>
+                    <span class="bg-darkbg text-xs px-2.5 py-1 rounded border border-darkborder">Typography</span>
+                    <span class="bg-darkbg text-xs px-2.5 py-1 rounded border border-darkborder">Live Streaming Host</span>
+                    <span class="bg-darkbg text-xs px-2.5 py-1 rounded border border-darkborder">Content Strategy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: FOOTER / KONTAK -->
+    <footer class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-darkborder">
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+            
+            <div class="md:col-span-7 space-y-6">
+                <h2 class="text-3xl font-extrabold text-white">📩 Siap Bekerja Sama?</h2>
+                <p class="text-gray-400 text-base leading-relaxed">
+                    Tertarik berkolaborasi untuk proyek event/wedding Anda selanjutnya? Hubungi saya melalui kontak di bawah ini.
+                </p>
+
+                <div class="space-y-3 pt-2">
+                    <a href="mailto:aghniyaadzdzikri09@gmail.com" class="flex items-center gap-3 text-gray-300 hover:text-gold-accent transition">
+                        <i class="fas fa-envelope text-gold-accent"></i> aghniyaadzdzikri09@gmail.com
+                    </a>
+                    <a href="https://wa.me/6285800644166" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-gold-accent transition">
+                        <i class="fab fa-whatsapp text-gold-accent"></i> 085800644166
+                    </a>
+                    <a href="https://instagram.com/aghniya.adz" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-gold-accent transition">
+                        <i class="fab fa-instagram text-gold-accent"></i> @aghniya.adz
+                    </a>
+                </div>
+            </div>
+
+            <!-- Social Media Screenshot Mockup Card -->
+            <div class="md:col-span-5 flex justify-center">
+                <a href="https://instagram.com/aghniya.adz" target="_blank" class="block group w-full max-w-xs">
+                    <div class="bg-darkcard border border-darkborder hover:border-gold-accent/50 rounded-2xl p-4 transition text-center shadow-xl">
+                        <div class="aspect-[9/16] bg-darkbg rounded-xl overflow-hidden relative mb-3">
+                            <img src="assets/akun.jpg" alt="Tampilan Instagram @aghniya.adz" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/30 group-hover:bg-transparent transition"></div>
+                        </div>
+                        <p class="text-xs font-semibold text-gold-accent">📸 Kunjungi Instagram / TikTok</p>
+                        <p class="text-xs text-gray-400">@aghniya.adz</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="text-center text-xs text-gray-500 mt-16 pt-8 border-t border-darkborder/50">
+            &copy; 2026 Aghniya Adz-Dzikri. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- VIDEO MODAL (PEMUTAR VIDEO LOKAL) -->
+    <div id="videoModal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="relative w-full max-w-sm bg-darkcard border border-darkborder rounded-2xl overflow-hidden shadow-2xl">
+            <div class="flex justify-between items-center px-4 py-3 border-b border-darkborder">
+                <h4 id="modalTitle" class="text-sm font-bold text-white truncate">Pemutar Video</h4>
+                <button onclick="closeVideoModal()" class="text-gray-400 hover:text-white text-lg">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="relative aspect-vertical bg-black">
+                <video id="modalVideo" controls class="w-full h-full object-cover">
+                    <source src="" type="video/mp4">
+                    Browser Anda tidak mendukung pemutaran video.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Filter Portofolio
+        function filterPortfolio(category) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-gold-accent', 'text-black');
+                btn.classList.add('bg-darkcard', 'text-gray-300');
+            });
+            event.target.classList.remove('bg-darkcard', 'text-gray-300');
+            event.target.classList.add('bg-gold-accent', 'text-black');
+
+            const items = document.querySelectorAll('.portfolio-item');
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Modal Video Controller
+        function playVideoModal(videoSrc, title) {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            const modalTitle = document.getElementById('modalTitle');
+
+            modalTitle.innerText = title;
+            video.src = videoSrc;
+            modal.classList.remove('hidden');
+            video.play();
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+
+            video.pause();
+            video.src = "";
+            modal.classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
